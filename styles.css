@@ -1,0 +1,51 @@
+.white{
+  background-color: white;
+}
+.black{
+  background-color: black;
+}
+#board{
+  border: solid 1px black;
+  width: 80vw;
+  height: 80vw;
+  z-index: -1;
+}
+.cell{
+  display: inline-block;
+  width: 10vw;
+  height: 10vw;
+}
+.row{
+height: 10vw;
+}
+.king-black{
+  background-image: url('Images/king-black.png');
+  z-index: 0;
+  background-size: 100%;
+  background-position: center;
+}
+.king-red{
+  background-image: url('Images/king-red.png');
+  z-index: 0;
+  background-size: 100%;
+  background-position: center;
+}
+.blackPiece{
+  background-image: url('Images/black.png');
+  z-index: 0;
+  background-size: 100%;
+  background-position: center;
+}
+.redPiece{
+  background-image: url('Images/red.png');
+  z-index: 0;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.highlight{
+  background-color: #FFFF99;
+}
+.highlight-select{
+  background-color: pink;
+}
